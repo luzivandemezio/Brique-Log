@@ -1,6 +1,6 @@
-#📦 Brique Log - v0.1
+📦 Brique Log - v0.1
 
-#📌 Motivação
+📌 Motivação
 
 Quem vive do brique sabe: a mente não para. Estamos o tempo todo calculando margens de lucro, custos de retirada e valores de revenda. Tentar manter tudo isso de cabeça é pedir para sair no prejuízo, e usar calculadoras comuns ou papel não resolve o problema da consistência e da organização a longo prazo.
 
@@ -20,7 +20,7 @@ O Brique Log nasceu da necessidade de centralizar esses cálculos. É uma ferram
 
 • Alerta de Prejuízo: Identifica e lista nominalmente quais briques não deram retorno positivo. ⚠️
 
-#🚀 Como usar
+🚀 Como usar
 
 Execute o script Python.
 Informe quantos itens deseja cadastrar (ou siga o fluxo contínuo).
@@ -28,7 +28,7 @@ Responda às perguntas sobre gastos extras (S/N).
 Defina se o item está em estoque ou se já foi "passado adiante".
 Ao finalizar, veja o resumo completo das suas finanças de brique na tela.
 
-#📅 Roadmap (Upgrades Futuros)
+📅 Roadmap (Upgrades Futuros)
 
 O projeto está em fase inicial (v0.1) e já temos os próximos passos planejados:
 Persistência de Dados (Banco de Dados): Implementação de SQLite para que os dados não sumam ao fechar o programa. 💾
