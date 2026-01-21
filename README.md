@@ -1,40 +1,89 @@
-📦 Brique Log - v0.1
+# 📦 Brique Log — v0.1
 
-📌 Motivação
+**Controle simples e objetivo de gastos, lucros e prejuízos para quem vive do brique.**
 
-Quem vive do brique sabe: a mente não para. Estamos o tempo todo calculando margens de lucro, custos de retirada e valores de revenda. Tentar manter tudo isso de cabeça é pedir para sair no prejuízo, e usar calculadoras comuns ou papel não resolve o problema da consistência e da organização a longo prazo.
+---
 
-O Brique Log nasceu da necessidade de centralizar esses cálculos. É uma ferramenta feita por quem entende a "coceira" de negociar e precisa de um lugar rápido para jogar ideias, gastos de conserto e fretes, garantindo que o lucro final seja real e não apenas uma estimativa mental furada. 🧠💸
+## 📌 Motivação
 
-#🛠️ O que o Script faz hoje
+Quem vive do brique sabe: a mente não para. Estamos o tempo todo calculando margens de lucro, custos de retirada, fretes, consertos e valores de revenda.
 
-• Atualmente, o script em Python permite:
+Fazer isso apenas de cabeça, em papel ou em calculadoras comuns **gera erro, desorganização e prejuízo**.
 
-• Cadastro Detalhado: Registro de nome, custo de compra, gastos com logística/entrega e custos de conserto/reforma.
+O **Brique Log** nasceu de uma necessidade real:  
+centralizar os cálculos de cada negociação em um único lugar, de forma clara, rápida e confiável.
 
-• Gestão de Status: Diferenciação entre itens já Vendidos e itens Em Estoque.
+É uma ferramenta feita **por quem entende a coceira de negociar**, para quem precisa transformar estimativas mentais em números reais. 🧠💸
 
-• Cálculo Automático: O sistema gera automaticamente o lucro real (para vendidos) e o lucro estimado (para o que ainda vai ser vendido).
+---
 
-• Relatório de Performance: Um resumo final que mostra o gasto total investido, o montante já recebido e o que ainda está previsto para entrar no bolso.
+## 🛠️ Funcionalidades Atuais (v0.1)
 
-• Alerta de Prejuízo: Identifica e lista nominalmente quais briques não deram retorno positivo. ⚠️
+O script em Python permite:
 
-🚀 Como usar
+- **Cadastro detalhado de briques**
+  - Nome do item
+  - Custo de compra
+  - Gastos com frete/logística
+  - Custos de conserto ou reforma
 
-Execute o script Python.
-Informe quantos itens deseja cadastrar (ou siga o fluxo contínuo).
-Responda às perguntas sobre gastos extras (S/N).
-Defina se o item está em estoque ou se já foi "passado adiante".
-Ao finalizar, veja o resumo completo das suas finanças de brique na tela.
+- **Gestão de status**
+  - Diferencia itens **Em Estoque** e **Vendidos**
 
-📅 Roadmap (Upgrades Futuros)
+- **Cálculo automático**
+  - Lucro real (itens vendidos)
+  - Lucro estimado (itens ainda em estoque)
 
-O projeto está em fase inicial (v0.1) e já temos os próximos passos planejados:
-Persistência de Dados (Banco de Dados): Implementação de SQLite para que os dados não sumam ao fechar o programa. 💾
+- **Relatório financeiro final**
+  - Total investido
+  - Total já recebido
+  - Valor previsto de retorno
 
-Gestão Dinâmica: Funções para editar itens, atualizar o status de "Estoque" para "Vendido" e remover briques que não deram certo ou foram retirados de venda.
+- **Alerta de prejuízo**
+  - Identificação dos briques que deram retorno negativo ⚠️
 
-Histórico de Gastos Irrecuperáveis: Garantir que, mesmo que um item saia do estoque sem ser vendido (quebra ou perda), o gasto investido continue registrado no histórico financeiro, pois o prejuízo precisa ser contabilizado.
+---
 
-#Desenvolvido por um briqueiro, para briqueiros. 🤝
+## 🚀 Como Usar
+
+1. Execute o script em Python.
+2. Informe quantos itens deseja cadastrar (ou utilize o fluxo contínuo).
+3. Responda às perguntas sobre gastos adicionais (S/N).
+4. Defina o status do item (Estoque ou Vendido).
+5. Ao final, visualize o resumo financeiro completo no terminal.
+
+---
+
+## 📅 Roadmap (Próximas Versões)
+
+O projeto está em fase inicial, mas já possui melhorias planejadas:
+
+- **Persistência de dados**
+  - Implementação de banco de dados SQLite para manter os dados salvos 💾
+
+- **Gestão dinâmica de itens**
+  - Editar briques cadastrados
+  - Atualizar status de estoque para vendido
+  - Remover itens descontinuados
+
+- **Histórico de prejuízos**
+  - Registro de gastos irrecuperáveis (quebra, perda ou descarte)
+  - Prejuízos continuam contabilizados no histórico financeiro
+
+---
+
+## 🧠 Tecnologias Utilizadas
+
+- **Python**
+- Execução via terminal (CLI)
+
+---
+
+## 👤 Autor
+
+Desenvolvido por um **briqueiro**, para **briqueiros** 🤝  
+Projeto criado para resolver um problema real do dia a dia de compra e revenda.
+
+---
+
+📌 *Projeto em evolução. Sugestões e contribuições são bem-vindas.*
