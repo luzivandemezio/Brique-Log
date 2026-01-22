@@ -1,4 +1,4 @@
-# 📦 Briq IDEA Alpha 0.0.1
+# 📦 Briq IDEA Alpha 0.1
 
 **Controle simples e objetivo de gastos, lucros e prejuízos para quem vive do brique.**
 
