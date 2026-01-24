@@ -1,4 +1,4 @@
-# 📦 Briq PoC
+# 📦 Briq — PoC
 
 **Controle simples e objetivo de gastos, lucros e prejuízos para quem vive do brique.**
 
